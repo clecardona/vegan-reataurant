@@ -5,7 +5,8 @@ $desktopBreakpoint: 1000px;
 $grayDark: #c4c4c4;
 $grayLight: #eeeeee;
 $white: white;
-$white: black;
+$black: black;
+$red: rgb(207, 51, 51);
 
 /*** fonts ***/
 /* fonts familie s*/
@@ -24,6 +25,11 @@ $Bold: 800;
 
 $header-height: 70px;
 $footer-height: 85px;
+
+:root {
+  --header-height: $header-height;
+  --header-height: $footer-height;
+}
 
 $mob-button-height: 44px;
 

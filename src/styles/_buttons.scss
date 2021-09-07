@@ -11,11 +11,13 @@ button {
 }
 
 .btn-main {
-  background: black;
-  border: 1px solid black;
+  background: $red;
+  border: 1px solid $red;
+  border-radius: 44px;
 
   h3 {
-    color: white;
+    color: $white;
+    text-transform: capitalize;
   }
 }
 
