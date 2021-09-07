@@ -11,7 +11,7 @@ This project was bootstrapped with Create React App.
 
 ## 1. Content
 
-This is a vegan Restaurant website.
+This is a Vegan Restaurant website.
 [Go to website](https://npa-portfolio.web.app/)
 
 ## 2. Setup
@@ -28,25 +28,28 @@ These are the instructions to run the project:
 ## 3. Dependencies
 
 - Firebase Cloud Hosting
-- Firebase Cloud Storage
 
 ## 4. Project organization
 
 ### 4.1 Requirement gathering
 
-[Google Docs link](https://docs.google.com/document/d/1ZmCtrgiXPj1qgSdKmgo7ObFWM2EASxXOpYo1N-agKMk/edit)
+[Google Docs link](https://docs.google.com/document/d/1qjRTB7ZgfW6TSQOnHnEzol_eH9fQO23ZEX8JZ5CScaM/edit)
 
 ### 4.2 Project spreadsheet
 
-[Google Spreadsheets link](https://docs.google.com/spreadsheets/d/1SXE6WLXl-HTeZVzc50HYBsM6YqzwS1l9_uIzh8DiUWg/edit#gid=722109281)
+[Google Spreadsheets link](https://docs.google.com/spreadsheets/d/1cLl1IrPkyIr2tL5Zo3IiA0pBxB_31CjOz4WOs9xyZYc/edit#gid=722109281)
 
-### 4.3 Design mockup
+### 4.3 Users flow chart
 
-[Figma mockup](https://www.figma.com/file/vwa3Ohsx8QKg69ZtGSxMF9/NPA_Portfolio?node-id=16%3A481)
+[Figma mockup](https://whimsical.com/users-flow-Hfh9d7iWJeX9hP67m5pigR)
 
-### 4.4 Component tree
+### 4.4 Design mockup
 
-[Whimsical Component Tree](https://whimsical.com/component-tree-Xy6kKsTTuSj3ZoQEZPPQQk@2Ux7TurymNLqhYS5xE34)
+[Figma mockup](https://www.figma.com/file/gcUsqGeK6qtCe4ULQApg6Y/NPA-_Vegan-website?node-id=0%3A1)
+
+### 4.5 Component tree
+
+[Whimsical Component Tree](https://whimsical.com/component-tree-T2sZjtjagdgQUzMMhyvW3T)
 
 ## 5. Credits
 
