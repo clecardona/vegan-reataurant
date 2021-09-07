@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "dishes",
+    "description": "Our recipes are inspired by the seasons, the ingredients we love, the trips that have taken us to other countries, meals shared with family or friends.We have been drawing the flavors and ingredients from the depths of our childhood memories, along the paths taken by chance in life, and sprinkled them with herbalism and naturopathic secrets to create new nutritional alchemies rich in energy. vital.",
+    "imageURL": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cauliflower-tacos-1628779692.jpg?crop=0.645xw:0.645xh;0.238xw,0.169xh&resize=980:*"
+  },
+  {
+    "id": 2,
+    "name": "desserts",
+    "description": "We absolutely seek to preserve healthy and sustainable agriculture, as well as the biodiversity of our planet. We also aim to produce zero waste and recycle whatever we can.The fiber-rich pulp of our nut juices and milks, for example, is revitalized and transformed into light, healthy crackers extremely rich in pre-biotics.",
+    "imageURL": "https://vegandesserts.be/wp-content/uploads/2020/07/vegan2-1.png"
+  },
+  {
+    "id": 3,
+    "name": "drinks",
+    "description": "Wild & The Moon products are vegan and homemade, made from fruits, vegetables, herbs, rootsand wild plants, nuts, seeds, spices and superfoods, all from organic, local and ethical agriculture. We do not use refined sugars, additives, preservatives, GMOs, gluten or dairy products.",
+    "imageURL": "https://www.newbodyandmind.com/wp-content/uploads/2021/01/FruitJuices_Lead-980x653.jpg"
+  }
+]
