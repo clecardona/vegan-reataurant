@@ -41,7 +41,7 @@ These are the instructions to run the project:
 
 ### 4.3 Users flow chart
 
-[Figma mockup](https://whimsical.com/users-flow-Hfh9d7iWJeX9hP67m5pigR)
+[Whimsical Chart](https://whimsical.com/users-flow-Hfh9d7iWJeX9hP67m5pigR)
 
 ### 4.4 Design mockup
 
