@@ -6,16 +6,16 @@ export default function NavBar() {
     <nav>
       <ul>
         <li>
-          <Link to="/category">Dishes</Link>
+          <Link to="/category/dishes">Dishes</Link>
         </li>
         <li>
-          <Link to="/category">Desserts</Link>
+          <Link to="/category/desserts">Desserts</Link>
         </li>
         <li className="link-home">
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/category">Drinks</Link>
+          <Link to="/category/drinks">Drinks</Link>
         </li>
         <li>
           <Link to="/contact">Contact us</Link>
