@@ -12,7 +12,7 @@ This project was bootstrapped with Create React App.
 ## 1. Content
 
 This is a Vegan Restaurant website.
-[Go to website](https://npa-portfolio.web.app/)
+[Go to website](https://) - under construction
 
 ## 2. Setup
 
