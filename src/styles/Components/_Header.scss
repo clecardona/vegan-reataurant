@@ -1,7 +1,9 @@
 header {
   height: $header-height;
-  background: $grayDark;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background: $black;
 }
