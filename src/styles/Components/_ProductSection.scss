@@ -17,8 +17,6 @@
     }
     img {
       grid-area: img;
-
-      height: 100%;
       width: 100%;
       object-fit: cover;
       object-position: top center;
@@ -42,7 +40,9 @@
     }
     a {
       grid-area: link;
-      margin: 12px;
+      justify-self: center;
+      margin: 0 36px;
+      width: max-content;
     }
   }
 }

@@ -45,6 +45,7 @@
   a {
     grid-area: link;
     margin: 12px;
+    width: max-content;
   }
 }
 .section-menu article:nth-child(even) {

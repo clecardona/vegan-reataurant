@@ -1,0 +1,16 @@
+.page-product {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  h2,
+  p,
+  table {
+    padding: 0 12px;
+  }
+
+  .btn-300 {
+    width: 300px;
+    margin: 24px;
+  }
+}

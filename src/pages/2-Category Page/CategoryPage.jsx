@@ -7,8 +7,6 @@ import ProductSection from "./ProductSection";
 export default function CategoryPage() {
   const { category } = useParams();
 
-  console.log(foodData);
-
   function getRelatedFood(categoryOfFood) {
     return foodData.filter((item) => {
       return item.category === categoryOfFood;

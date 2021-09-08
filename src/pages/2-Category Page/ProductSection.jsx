@@ -1,5 +1,5 @@
 import React from "react";
-
+//todo rename component
 export default function ProductSection({ list }) {
   return (
     <section className="section-products ">
@@ -9,10 +9,7 @@ export default function ProductSection({ list }) {
             <img src={item.imageURL} alt="img" />
             <h2>{item.title}</h2>
             <p>{item.description}</p>
-            <a
-              href={`./category/${item.category}/${item.id}`}
-              className="btn btn-main"
-            >
+            <a href={`./${item.category}/${item.id}`} className="btn btn-main">
               <h3> > View product</h3>
             </a>
           </article>
