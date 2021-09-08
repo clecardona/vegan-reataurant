@@ -1,24 +1,60 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useHistory } from "react-router-dom";
 
 export default function NavBar() {
+  const history = useHistory();
+
   return (
     <nav>
       <ul>
         <li>
-          <Link to="./dishes">Dishes</Link>
+          <button
+            onClick={() => {
+              history.push("/menu/dishes");
+            }}
+          >
+            Dishes
+          </button>
         </li>
+
         <li>
-          <Link to="./desserts">Desserts</Link>
+          <button
+            onClick={() => {
+              history.push("/menu/desserts");
+            }}
+          >
+            Desserts
+          </button>
         </li>
+
         <li className="link-home">
-          <Link to="/">Home</Link>
+          <button
+            onClick={() => {
+              history.push("/");
+            }}
+          >
+            Home
+          </button>
         </li>
+
         <li>
-          <Link to="./drinks">Drinks</Link>
+          <button
+            onClick={() => {
+              history.push("/menu/drinks");
+            }}
+          >
+            Drinks
+          </button>
         </li>
+
         <li>
-          <Link to="./contact">Contact us</Link>
+          <button
+            onClick={() => {
+              history.push("/contact");
+            }}
+          >
+            Contact
+          </button>
         </li>
       </ul>
     </nav>

@@ -14,18 +14,14 @@ export default function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/">
-            <HomePage />
-          </Route>
-          <Route exact path="/:category">
-            <CategoryPage />
-          </Route>
-          <Route exact path="/:category/:productID">
-            <ProductPage />
-          </Route>
-          <Route exact path="/contact">
-            <ContactPage />
-          </Route>
+          <Route exact path="/" component={HomePage} />
+          <Route exact path="/menu/:category" component={CategoryPage} />
+          <Route
+            exact
+            path="/menu/:category/:productID"
+            component={ProductPage}
+          />
+          <Route exact path="/contact" component={ContactPage} />
         </Switch>
       </Router>
 

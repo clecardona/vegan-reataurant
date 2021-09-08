@@ -25,8 +25,7 @@
     object-position: top center;
   }
   h2,
-  p,
-  a {
+  p {
     padding: 0 12px;
   }
   h2 {
@@ -44,6 +43,8 @@
   }
   a {
     grid-area: link;
+    align-self: center;
+    justify-self: center;
     margin: 12px;
     width: max-content;
   }

@@ -23,6 +23,9 @@
 }
 
 .section-description {
-  background: $redLight;
+  background: $grayLight;
   width: 100%;
+  p {
+    padding: 12px;
+  }
 }

@@ -18,6 +18,7 @@ button {
   h3 {
     color: $white;
     text-transform: capitalize;
+    padding: 0 24px;
   }
 }
 
@@ -25,11 +26,11 @@ button {
   background: none;
   border: 2px solid $red;
   border-radius: 44px;
-  padding: 0 12px;
 
   h3 {
     color: $red;
     text-transform: capitalize;
+    padding: 0 24px;
   }
 }
 

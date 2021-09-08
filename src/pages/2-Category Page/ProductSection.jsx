@@ -1,4 +1,5 @@
 import React from "react";
+
 //todo rename component
 export default function ProductSection({ list }) {
   return (
