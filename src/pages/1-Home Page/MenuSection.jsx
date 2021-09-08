@@ -1,8 +1,9 @@
 import React from "react";
 import menuData from "../../assets/menuItems.json";
+import { useHistory } from "react-router-dom";
 
 export default function MenuSection() {
-  //console.log(menuData);
+  const history = useHistory();
 
   return (
     <section className="section-menu ">
@@ -12,9 +13,18 @@ export default function MenuSection() {
             <img src={item.imageURL} alt="img" />
             <h2>{item.name}</h2>
             <p>{item.description}</p>
-            <a href={`./menu/${item.name}`} className="btn btn-main">
+            {/*    <a href={`./menu/${item.name}`} className="btn btn-main">
               <h3> > View {item.name}</h3>
-            </a>
+            </a> */}
+
+            <button
+              className="btn btn-main"
+              onClick={() => {
+                history.push(`./menu/${item.name}`);
+              }}
+            >
+              <h3>View product</h3>
+            </button>
           </article>
         );
       })}
