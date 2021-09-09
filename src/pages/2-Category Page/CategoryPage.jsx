@@ -3,6 +3,7 @@ import { useParams, NavLink } from "react-router-dom";
 
 import menuData from "../../assets/menuItems.json";
 import Products from "./Products";
+import ButtonBack from "../../components/ButtonBack";
 
 export default function CategoryPage() {
   const { category } = useParams();
@@ -26,7 +27,7 @@ export default function CategoryPage() {
       <Products category={category} />
 
       <NavLink to={`/`} className="btn btn-main btn-300">
-        <h3>⬅ Go back </h3>
+        <ButtonBack label="Go back" />
       </NavLink>
     </main>
   );

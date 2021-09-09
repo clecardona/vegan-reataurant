@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import ButtonForward from "../../components/ButtonForward";
 
 import foodData from "../../assets/foodItems.json";
 
@@ -24,7 +25,7 @@ export default function Products({ category }) {
               to={`./${item.category}/${item.id}`}
               className="btn btn-ghost"
             >
-              <h3>View product ➡</h3>
+              <ButtonForward label="View Product" />
             </NavLink>
           </article>
         );

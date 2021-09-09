@@ -1,6 +1,7 @@
 import React from "react";
 import menuData from "../../assets/menuItems.json";
 import { NavLink } from "react-router-dom";
+import ButtonForward from "../../components/ButtonForward";
 
 export default function Menu() {
   return (
@@ -11,8 +12,8 @@ export default function Menu() {
             <img src={item.imageURL} alt="img" />
             <h2>{item.name}</h2>
             <p>{item.description}</p>
-            <NavLink to={`/menu/${item.name}`} className="btn btn-main">
-              <h3>View products ➡</h3>
+            <NavLink to={`/menu/${item.name}`} className="btn btn-ghost">
+              <ButtonForward label="View Products" />
             </NavLink>
           </article>
         );

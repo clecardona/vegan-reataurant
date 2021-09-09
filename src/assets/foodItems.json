@@ -13,17 +13,17 @@
       {
         "id": 1,
         "label": "calories",
-        "value": 200
+        "value": 340
       },
       {
         "id": 2,
         "label": "total fat",
-        "value": 10
+        "value": 8
       },
       {
         "id": 3,
         "label": "saturated fat",
-        "value": 10
+        "value": 3
       },
       {
         "id": 4,
@@ -33,7 +33,7 @@
       {
         "id": 5,
         "label": "sodium",
-        "value": 10
+        "value": 7
       },
       {
         "id": 6,
@@ -49,13 +49,13 @@
       {
         "id": 8,
         "label": "sugar",
-        "value": 10
+        "value": 7
       },
 
       {
         "id": 9,
         "label": "protein",
-        "value": 10
+        "value": 20
       }
     ]
   },
@@ -79,12 +79,12 @@
       {
         "id": 1,
         "label": "calories",
-        "value": 200
+        "value": 420
       },
       {
         "id": 2,
         "label": "total fat",
-        "value": 10
+        "value": 17
       },
       {
         "id": 3,
@@ -94,12 +94,12 @@
       {
         "id": 4,
         "label": "cholesterol",
-        "value": 10
+        "value": 6
       },
       {
         "id": 5,
         "label": "sodium",
-        "value": 10
+        "value": 22
       },
       {
         "id": 6,
@@ -109,7 +109,7 @@
       {
         "id": 7,
         "label": "fiber",
-        "value": 10
+        "value": 5
       },
 
       {
@@ -121,7 +121,7 @@
       {
         "id": 9,
         "label": "protein",
-        "value": 10
+        "value": 6
       }
     ]
   },
@@ -145,7 +145,7 @@
       {
         "id": 1,
         "label": "calories",
-        "value": 200
+        "value": 420
       },
       {
         "id": 2,
@@ -155,12 +155,12 @@
       {
         "id": 3,
         "label": "saturated fat",
-        "value": 10
+        "value": 7
       },
       {
         "id": 4,
         "label": "cholesterol",
-        "value": 10
+        "value": 7
       },
       {
         "id": 5,
@@ -175,7 +175,7 @@
       {
         "id": 7,
         "label": "fiber",
-        "value": 10
+        "value": 9
       },
 
       {
@@ -187,7 +187,7 @@
       {
         "id": 9,
         "label": "protein",
-        "value": 10
+        "value": 22
       }
     ]
   },
@@ -212,7 +212,7 @@
       {
         "id": 1,
         "label": "calories",
-        "value": 200
+        "value": 340
       },
       {
         "id": 2,
@@ -237,7 +237,7 @@
       {
         "id": 6,
         "label": "total carbohydrates",
-        "value": 10
+        "value": 4
       },
       {
         "id": 7,
@@ -248,13 +248,13 @@
       {
         "id": 8,
         "label": "sugar",
-        "value": 10
+        "value": 23
       },
 
       {
         "id": 9,
         "label": "protein",
-        "value": 10
+        "value": 33
       }
     ]
   },
@@ -279,17 +279,17 @@
       {
         "id": 1,
         "label": "calories",
-        "value": 200
+        "value": 560
       },
       {
         "id": 2,
         "label": "total fat",
-        "value": 10
+        "value": 9
       },
       {
         "id": 3,
         "label": "saturated fat",
-        "value": 10
+        "value": 13
       },
       {
         "id": 4,
@@ -304,12 +304,12 @@
       {
         "id": 6,
         "label": "total carbohydrates",
-        "value": 10
+        "value": 26
       },
       {
         "id": 7,
         "label": "fiber",
-        "value": 10
+        "value": 25
       },
 
       {
@@ -321,7 +321,7 @@
       {
         "id": 9,
         "label": "protein",
-        "value": 10
+        "value": 7
       }
     ]
   },
@@ -346,12 +346,12 @@
       {
         "id": 1,
         "label": "calories",
-        "value": 200
+        "value": 433
       },
       {
         "id": 2,
         "label": "total fat",
-        "value": 10
+        "value": 28
       },
       {
         "id": 3,
@@ -361,7 +361,7 @@
       {
         "id": 4,
         "label": "cholesterol",
-        "value": 10
+        "value": 19
       },
       {
         "id": 5,
@@ -371,12 +371,12 @@
       {
         "id": 6,
         "label": "total carbohydrates",
-        "value": 10
+        "value": 9
       },
       {
         "id": 7,
         "label": "fiber",
-        "value": 10
+        "value": 8
       },
 
       {
@@ -388,7 +388,7 @@
       {
         "id": 9,
         "label": "protein",
-        "value": 10
+        "value": 5
       }
     ]
   },
@@ -413,7 +413,7 @@
       {
         "id": 1,
         "label": "calories",
-        "value": 200
+        "value": 348
       },
       {
         "id": 2,
@@ -433,12 +433,12 @@
       {
         "id": 5,
         "label": "sodium",
-        "value": 10
+        "value": 50
       },
       {
         "id": 6,
         "label": "total carbohydrates",
-        "value": 10
+        "value": 23
       },
       {
         "id": 7,
@@ -455,7 +455,7 @@
       {
         "id": 9,
         "label": "protein",
-        "value": 10
+        "value": 24
       }
     ]
   },
@@ -480,7 +480,7 @@
       {
         "id": 1,
         "label": "calories",
-        "value": 200
+        "value": 147
       },
       {
         "id": 2,
@@ -495,7 +495,7 @@
       {
         "id": 4,
         "label": "cholesterol",
-        "value": 10
+        "value": 6
       },
       {
         "id": 5,
@@ -505,12 +505,12 @@
       {
         "id": 6,
         "label": "total carbohydrates",
-        "value": 10
+        "value": 19
       },
       {
         "id": 7,
         "label": "fiber",
-        "value": 10
+        "value": 38
       },
 
       {
@@ -522,7 +522,7 @@
       {
         "id": 9,
         "label": "protein",
-        "value": 10
+        "value": 9
       }
     ]
   },
@@ -547,7 +547,7 @@
       {
         "id": 1,
         "label": "calories",
-        "value": 200
+        "value": 270
       },
       {
         "id": 2,
@@ -557,39 +557,39 @@
       {
         "id": 3,
         "label": "saturated fat",
-        "value": 10
+        "value": 17
       },
       {
         "id": 4,
         "label": "cholesterol",
-        "value": 10
+        "value": 0
       },
       {
         "id": 5,
         "label": "sodium",
-        "value": 10
+        "value": 0
       },
       {
         "id": 6,
         "label": "total carbohydrates",
-        "value": 10
+        "value": 0
       },
       {
         "id": 7,
         "label": "fiber",
-        "value": 10
+        "value": 0
       },
 
       {
         "id": 8,
         "label": "sugar",
-        "value": 10
+        "value": 20
       },
 
       {
         "id": 9,
         "label": "protein",
-        "value": 10
+        "value": 0
       }
     ]
   },
@@ -614,49 +614,49 @@
       {
         "id": 1,
         "label": "calories",
-        "value": 150
+        "value": 250
       },
       {
         "id": 2,
         "label": "total fat",
-        "value": 10
+        "value": 0
       },
       {
         "id": 3,
         "label": "saturated fat",
-        "value": 10
+        "value": 0
       },
       {
         "id": 4,
         "label": "cholesterol",
-        "value": 10
+        "value": 0
       },
       {
         "id": 5,
         "label": "sodium",
-        "value": 10
+        "value": 2
       },
       {
         "id": 6,
         "label": "total carbohydrates",
-        "value": 10
+        "value": 1
       },
       {
         "id": 7,
         "label": "fiber",
-        "value": 10
+        "value": 3
       },
 
       {
         "id": 8,
         "label": "sugar",
-        "value": 10
+        "value": 20
       },
 
       {
         "id": 9,
         "label": "protein",
-        "value": 10
+        "value": 3
       }
     ]
   },
@@ -681,49 +681,49 @@
       {
         "id": 1,
         "label": "calories",
-        "value": 200
+        "value": 210
       },
       {
         "id": 2,
         "label": "total fat",
-        "value": 10
+        "value": 0
       },
       {
         "id": 3,
         "label": "saturated fat",
-        "value": 10
+        "value": 0
       },
       {
         "id": 4,
         "label": "cholesterol",
-        "value": 10
+        "value": 0
       },
       {
         "id": 5,
         "label": "sodium",
-        "value": 10
+        "value": 1
       },
       {
         "id": 6,
         "label": "total carbohydrates",
-        "value": 10
+        "value": 0
       },
       {
         "id": 7,
         "label": "fiber",
-        "value": 10
+        "value": 4
       },
 
       {
         "id": 8,
         "label": "sugar",
-        "value": 10
+        "value": 16
       },
 
       {
         "id": 9,
         "label": "protein",
-        "value": 10
+        "value": 2
       }
     ]
   },
@@ -748,37 +748,37 @@
       {
         "id": 1,
         "label": "calories",
-        "value": 200
+        "value": 170
       },
       {
         "id": 2,
         "label": "total fat",
-        "value": 10
+        "value": 0
       },
       {
         "id": 3,
         "label": "saturated fat",
-        "value": 10
+        "value": 0
       },
       {
         "id": 4,
         "label": "cholesterol",
-        "value": 10
+        "value": 0
       },
       {
         "id": 5,
         "label": "sodium",
-        "value": 10
+        "value": 1
       },
       {
         "id": 6,
         "label": "total carbohydrates",
-        "value": 10
+        "value": 19
       },
       {
         "id": 7,
         "label": "fiber",
-        "value": 10
+        "value": 0
       },
 
       {
@@ -790,7 +790,7 @@
       {
         "id": 9,
         "label": "protein",
-        "value": 10
+        "value": 3
       }
     ]
   }

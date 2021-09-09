@@ -5,6 +5,7 @@ import foodData from "../../assets/foodItems.json";
 import Description from "./Description";
 import Ingredients from "./Ingredients";
 import NutritionFacts from "./NutritionFacts";
+import ButtonBack from "../../components/ButtonBack";
 
 export default function ProductPage() {
   const { category } = useParams();
@@ -24,7 +25,7 @@ export default function ProductPage() {
       <Ingredients product={product} />
       <NutritionFacts product={product} />
       <NavLink to={`/menu/${category}`} className="btn btn-main btn-300">
-        <h3>⬅ Go back </h3>
+        <ButtonBack label="Go back" />
       </NavLink>
     </main>
   );
