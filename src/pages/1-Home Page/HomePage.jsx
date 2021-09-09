@@ -1,11 +1,11 @@
 import React from "react";
-import HeroSection from "./HeroSection";
-import MenuSection from "./MenuSection";
+import Hero from "./Hero";
+import MenuSection from "./Menu";
 
 export default function HomePage() {
   return (
     <main>
-      <HeroSection />
+      <Hero />
       <MenuSection />
     </main>
   );

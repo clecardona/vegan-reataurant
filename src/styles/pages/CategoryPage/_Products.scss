@@ -23,7 +23,7 @@
     }
     h2,
     p,
-    button {
+    a {
       padding: 0 12px;
     }
     h2 {
@@ -38,7 +38,7 @@
       overflow: hidden;
       height: 100%;
     }
-    button {
+    a {
       grid-area: link;
       justify-self: center;
       margin: 0 36px;

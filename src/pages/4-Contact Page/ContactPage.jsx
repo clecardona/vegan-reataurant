@@ -1,14 +1,14 @@
 import React from "react";
-import ContactDescriptionSection from "./ContactDescriptionSection";
-import FormContactSection from "./FormContactSection";
-import LocalisationSection from "./LocalisationSection";
+import ContactDescription from "./ContactDescription";
+import ContactForm from "./ContactForm";
+import Localisation from "./Localisation";
 
 export default function ContactPage() {
   return (
     <main className="page-contact">
-      <ContactDescriptionSection />
-      <FormContactSection />
-      <LocalisationSection />
+      <ContactDescription />
+      <ContactForm />
+      <Localisation />
     </main>
   );
 }

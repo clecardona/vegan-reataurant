@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function NutritionFactsSection({ product }) {
+export default function NutritionFacts({ product }) {
   const calories = product.nutrition_facts[0];
   const otherData = product.nutrition_facts.slice(
     1,

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function FormContactSection() {
+export default function ContactForm() {
   const moment = require("moment");
   const start = moment(Date.now()).format("YYYY-mm-DD");
 

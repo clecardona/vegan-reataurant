@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function IngredientsSection({ product }) {
+export default function Ingredients({ product }) {
   return (
     <section className="section-ingredients">
       <ul>

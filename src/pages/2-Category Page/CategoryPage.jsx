@@ -1,9 +1,12 @@
 import React from "react";
+import { useParams, NavLink } from "react-router-dom";
+
+//refactor - place logic where needed
 import foodData from "../../assets/foodItems.json";
 import menuData from "../../assets/menuItems.json";
+//
 
-import { useParams } from "react-router-dom";
-import ProductSection from "./ProductSection";
+import Products from "./Products";
 
 export default function CategoryPage() {
   const { category } = useParams();
@@ -13,7 +16,6 @@ export default function CategoryPage() {
       return item.category === categoryOfFood;
     });
   }
-
   function getCategoryDescription(array, categoryOfFood) {
     return array.filter((item) => {
       return item.name === categoryOfFood;
@@ -30,10 +32,11 @@ export default function CategoryPage() {
       <section className="section-description">
         <p>{description}</p>
       </section>
-      <ProductSection list={plats} />
-      <a className="btn btn-main btn-300" href="/">
-        <h3> Go back </h3>
-      </a>
+      <Products list={plats} />
+
+      <NavLink to={`/`} className="btn btn-main btn-300">
+        <h3>⬅Go back </h3>
+      </NavLink>
     </main>
   );
 }

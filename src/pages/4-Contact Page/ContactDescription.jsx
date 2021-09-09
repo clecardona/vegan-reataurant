@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function ContactDescriptionSection() {
+export default function ContactDescription() {
   return (
     <section className="section-contact_description">
       <img

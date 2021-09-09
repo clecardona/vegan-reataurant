@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function HeroSection() {
+export default function Hero() {
   return (
     <section className="section-hero">
       <h1>Wild and the Moon</h1>

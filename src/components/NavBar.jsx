@@ -1,62 +1,26 @@
 import React from "react";
-import { useHistory } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
+//refacor links
 export default function NavBar() {
-  const history = useHistory();
-
   return (
     <nav>
-      <ul>
-        <li>
-          <button
-            onClick={() => {
-              history.push("/menu/dishes");
-            }}
-          >
-            Dishes
-          </button>
-        </li>
+      <NavLink to="/menu/dishes" className="nav-item">
+        Dishes
+      </NavLink>
 
-        <li>
-          <button
-            onClick={() => {
-              history.push("/menu/desserts");
-            }}
-          >
-            Desserts
-          </button>
-        </li>
+      <NavLink to="/menu/desserts">Desserts</NavLink>
 
-        <li className="link-home">
-          <button
-            onClick={() => {
-              history.push("/");
-            }}
-          >
-            Home
-          </button>
-        </li>
+      <NavLink className="home" to="/">
+        <img
+          src="https://clecardona.com/npa/vegan_restaurant/logo.png"
+          alt="logo"
+        />
+        <h4>W+TM</h4>
+      </NavLink>
 
-        <li>
-          <button
-            onClick={() => {
-              history.push("/menu/drinks");
-            }}
-          >
-            Drinks
-          </button>
-        </li>
-
-        <li>
-          <button
-            onClick={() => {
-              history.push("/contact");
-            }}
-          >
-            Contact
-          </button>
-        </li>
-      </ul>
+      <NavLink to="/menu/drinks">Drinks</NavLink>
+      <NavLink to="/contact">Contact</NavLink>
     </nav>
   );
 }

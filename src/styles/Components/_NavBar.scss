@@ -1,0 +1,50 @@
+nav {
+  display: grid;
+  gap: 1rem;
+
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr;
+
+  justify-items: center;
+  align-items: center;
+
+  width: 100%;
+  padding: 12px;
+
+  a {
+    text-align: center;
+    color: $grayLight;
+    text-transform: capitalize;
+    font-size: 14px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.home {
+  grid-column: 3 / span 2;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+
+  background-color: $white;
+
+  overflow: hidden;
+  &:hover {
+    text-decoration: none;
+    transform: scale(1.05);
+    transition: ease 0.3s;
+  }
+
+  img {
+    height: 30px;
+    width: 30px;
+  }
+  h4 {
+    color: $grayDark;
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+  }
+}

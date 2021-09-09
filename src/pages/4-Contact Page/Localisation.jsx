@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function LocalisationSection() {
+export default function Localisation() {
   return (
     <section className="section-localisation">
       <h2>Find us</h2>
