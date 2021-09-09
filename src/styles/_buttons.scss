@@ -29,6 +29,10 @@ button {
       fill: $white;
     }
   }
+  &:hover {
+    transition: ease 0.3s;
+    background-color: $redDark;
+  }
 }
 
 .btn-ghost {
@@ -45,6 +49,17 @@ button {
     margin: 6px;
     path {
       fill: $red;
+    }
+  }
+  &:hover {
+    transition: ease 0.3s;
+    color: $redDark;
+    border-color: $redDark;
+    h3 {
+      color: $redDark;
+    }
+    svg path {
+      fill: $redDark;
     }
   }
 }

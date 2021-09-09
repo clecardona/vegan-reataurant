@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <NavBar />
-      <div className="header-footer" />
+      <div className="header-footer-curvy" />
     </header>
   );
 }

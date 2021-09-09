@@ -15,9 +15,9 @@
 .section-header {
   width: 100%;
   background: $red;
-  height: 120px;
+  height: 150px;
   @media only screen and (min-width: $desktopBreakpoint) {
-    height: 240px;
+    height: 280px;
   }
 
   display: flex;
@@ -29,6 +29,10 @@
 
   h1 {
     font-weight: 100;
+    padding-top: 50px;
+    @media only screen and (min-width: $desktopBreakpoint) {
+      padding-top: 70px;
+    }
   }
 }
 

@@ -1,6 +1,12 @@
 nav {
+  z-index: 10;
   display: grid;
   gap: 1rem;
+
+  padding-top: 20px;
+  @media only screen and (min-width: $desktopBreakpoint) {
+    padding-top: 65px;
+  }
 
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 1fr;
@@ -38,9 +44,11 @@ nav {
 
   height: 80px;
   width: 80px;
-  border-radius: 50px;
+  border-radius: 70px;
+  border: 6px solid $black;
+
   @media only screen and (min-width: $desktopBreakpoint) {
-    top: 40px;
+    top: 50px;
     height: 100px;
     width: 100px;
   }
