@@ -10,7 +10,7 @@
 
   display: grid;
   grid-template-columns: repeat(2, 50%);
-  grid-template-rows: min-content 1fr min-content;
+  grid-template-rows: 1fr min-content 1fr;
 
   grid-template-areas:
     "img title"
@@ -30,14 +30,14 @@
   }
   h2 {
     grid-area: title;
+
+    align-self: end;
+
     text-transform: capitalize;
     padding-top: 10px;
   }
   p {
     grid-area: description;
-    /* text-align: justify;
-    text-justify: inter-character;
-    text-overflow: ellipsis; */
     overflow: hidden;
     height: 100%;
 
@@ -60,4 +60,9 @@
     "title img"
     "description img "
     "link img ";
+
+  h2,
+  p {
+    text-align: right;
+  }
 }

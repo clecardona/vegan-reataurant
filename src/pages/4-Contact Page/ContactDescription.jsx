@@ -16,8 +16,8 @@ export default function ContactDescription() {
         />
       </div>
 
-      <h2>Opening Hours</h2>
       <div className="hours">
+        <h2>Opening Hours</h2>
         <p>Monday - Friday</p>
         <h3>11-23</h3>
         <p>Saturday</p>

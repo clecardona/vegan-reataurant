@@ -23,7 +23,7 @@ export default function ProductPage() {
       <Description product={product} />
       <Ingredients product={product} />
       <NutritionFacts product={product} />
-      <NavLink to={`/menu/${category}`} className="btn btn-ghost btn-300">
+      <NavLink to={`/menu/${category}`} className="btn btn-main btn-300">
         <h3>⬅ Go back </h3>
       </NavLink>
     </main>

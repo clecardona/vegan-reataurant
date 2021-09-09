@@ -18,14 +18,14 @@ export default function CategoryPage() {
   return (
     <main className="page-category">
       <section className="section-header">
-        <h2>{category}</h2>
+        <h1>{category}</h1>
       </section>
       <section className="section-description">
         <p>{description}</p>
       </section>
       <Products category={category} />
 
-      <NavLink to={`/`} className="btn btn-ghost btn-300">
+      <NavLink to={`/`} className="btn btn-main btn-300">
         <h3>⬅ Go back </h3>
       </NavLink>
     </main>

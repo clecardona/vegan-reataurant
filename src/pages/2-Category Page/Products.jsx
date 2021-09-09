@@ -22,7 +22,7 @@ export default function Products({ category }) {
             <p>{item.description}</p>
             <NavLink
               to={`./${item.category}/${item.id}`}
-              className="btn btn-main"
+              className="btn btn-ghost"
             >
               <h3>View product ➡</h3>
             </NavLink>

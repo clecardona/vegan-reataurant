@@ -1,5 +1,12 @@
 .section-products {
+  @media only screen and (min-width: $desktopBreakpoint) {
+    width: 800px;
+    margin: auto;
+  }
   article {
+    @media only screen and (min-width: $desktopBreakpoint) {
+      border: 1px solid $grayLight;
+    }
     display: grid;
     grid-template-columns: 33% 1fr;
     grid-template-rows: min-content 1fr min-content;
@@ -12,8 +19,14 @@
     border-bottom: 1px solid $grayLight;
     margin-top: 1rem;
     padding-bottom: 1rem;
+    @media only screen and (min-width: $desktopBreakpoint) {
+      padding-bottom: 0;
+    }
     &:last-child {
       border-bottom: none;
+      @media only screen and (min-width: $desktopBreakpoint) {
+        border-bottom: 1px solid $grayLight;
+      }
     }
     img {
       grid-area: img;
@@ -41,7 +54,11 @@
     a {
       grid-area: link;
       justify-self: center;
-      margin: 0 36px;
+      @media only screen and (min-width: $desktopBreakpoint) {
+        justify-self: end;
+        margin: 0 12px 12px 0;
+      }
+
       width: max-content;
       h3 {
         font-size: 15px;

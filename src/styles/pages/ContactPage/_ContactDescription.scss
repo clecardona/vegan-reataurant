@@ -4,13 +4,13 @@
   .header-contact {
     position: relative;
     .background {
-      height: 200px;
+      height: 260px;
       width: 100%;
 
       object-fit: cover;
       object-position: center;
 
-      filter: brightness(0.7);
+      filter: brightness(0.9);
     }
     .owner {
       position: absolute;
@@ -29,9 +29,24 @@
   }
 
   .hours {
-    margin-left: 14px;
-    padding-left: 12px;
-    border-left: 2px solid black;
+    padding: 0 12px;
+    @media only screen and (min-width: $desktopBreakpoint) {
+      width: 800px;
+      margin: auto;
+      h2,
+      h3,
+      p {
+        padding: 0 12px;
+      }
+    }
+
+    h2 {
+      padding: 0;
+      @media only screen and (min-width: $desktopBreakpoint) {
+        padding: 0 12px;
+      }
+      margin: 12px 0;
+    }
     p {
       line-height: 90%;
     }

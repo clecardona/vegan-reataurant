@@ -1,7 +1,25 @@
+.section-form_contact {
+  @media only screen and (min-width: $desktopBreakpoint) {
+    width: 800px;
+    margin: auto;
+  }
+
+  h2 {
+    padding: 0;
+  }
+}
 form {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   padding: 12px;
+
+  @media only screen and (min-width: $desktopBreakpoint) {
+    border: 1px solid $grayDark;
+    border-radius: 20px;
+    margin: 12px;
+    padding: 30px 80px;
+  }
+
   label {
     width: 100%;
 

@@ -7,12 +7,18 @@
   .btn-300 {
     width: 300px;
     margin: 24px;
+    @media only screen and (min-width: $desktopBreakpoint) {
+      margin: 64px;
+    }
   }
 }
 .section-header {
   width: 100%;
   background: $red;
   height: 120px;
+  @media only screen and (min-width: $desktopBreakpoint) {
+    height: 240px;
+  }
 
   display: flex;
   justify-content: center;
@@ -20,12 +26,23 @@
 
   color: $white;
   text-transform: capitalize;
+
+  h1 {
+    font-weight: 100;
+  }
 }
 
 .section-description {
-  background: $grayLight;
   width: 100%;
+  @media only screen and (min-width: $desktopBreakpoint) {
+    width: 800px;
+    margin: auto;
+  }
   p {
     padding: 12px;
+    font-weight: 300;
+    @media only screen and (min-width: $desktopBreakpoint) {
+      padding: 25px 0;
+    }
   }
 }

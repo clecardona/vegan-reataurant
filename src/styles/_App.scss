@@ -8,10 +8,6 @@ html {
   flex-direction: column;
 }
 main {
-  @media only screen and (min-width: $desktopBreakpoint) {
-    width: 800px;
-    margin: auto;
-  }
 }
 
 ul,

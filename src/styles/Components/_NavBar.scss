@@ -8,11 +8,10 @@ nav {
   justify-items: center;
   align-items: center;
 
-  width: 95%;
+  width: 90%;
   @media only screen and (min-width: $desktopBreakpoint) {
     width: 800px;
   }
-  padding: 12px;
 
   a {
     display: flex;
@@ -32,6 +31,7 @@ nav {
 .home {
   position: relative;
   top: 25px;
+
   z-index: 3;
 
   grid-column: 3 / span 2;
@@ -39,6 +39,11 @@ nav {
   height: 80px;
   width: 80px;
   border-radius: 50px;
+  @media only screen and (min-width: $desktopBreakpoint) {
+    top: 40px;
+    height: 100px;
+    width: 100px;
+  }
 
   background-color: $white;
 
@@ -48,7 +53,6 @@ nav {
   &:hover {
     text-decoration: none;
     filter: grayscale(0);
-    //transform: scale(1.05);
     transition: ease 0.3s;
   }
 
