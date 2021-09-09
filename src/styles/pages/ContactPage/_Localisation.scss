@@ -8,4 +8,35 @@
     height: 200px;
     object-fit: cover;
   }
+
+  .map {
+    height: 400px;
+    margin-bottom: 24px;
+
+    h3 {
+      width: max-content;
+
+      text-align: left;
+
+      color: white;
+      padding-right: 3px;
+      border-radius: 10px;
+      background: $red;
+      border: none;
+
+      font-size: 14px;
+
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    h3::before {
+      content: "✜";
+      transform: rotate(90deg);
+      color: $red;
+      top: 0px;
+      left: -11px;
+      position: relative;
+      z-index: 10;
+    }
+  }
 }
