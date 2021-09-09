@@ -40,6 +40,8 @@
     text-overflow: ellipsis;
     overflow: hidden;
     height: 100%;
+
+    font-size: 14px;
   }
   a {
     grid-area: link;
@@ -47,6 +49,9 @@
     justify-self: center;
     margin: 12px;
     width: max-content;
+    h3 {
+      font-size: 15px;
+    }
   }
 }
 .section-menu article:nth-child(even) {

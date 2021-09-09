@@ -1,10 +1,20 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-export default function Products({ list }) {
+import foodData from "../../assets/foodItems.json";
+
+export default function Products({ category }) {
+  const listOfProducts = getRelatedFood(foodData, category);
+
+  function getRelatedFood(array, categoryOfFood) {
+    return array.filter((item) => {
+      return item.category === categoryOfFood;
+    });
+  }
+
   return (
     <section className="section-products ">
-      {list.map((item) => {
+      {listOfProducts.map((item) => {
         return (
           <article key={item.id}>
             <img src={item.imageURL} alt="img" />
