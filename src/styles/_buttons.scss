@@ -35,7 +35,12 @@ button {
 }
 
 .pill {
-  height: 30px;
+  height: 25px;
+
+  h3 {
+    font-size: 14px;
+    padding: 0 12px;
+  }
 }
 
 input {

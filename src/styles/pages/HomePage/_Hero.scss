@@ -1,7 +1,5 @@
 .section-hero {
   height: calc(100vh - 70px);
-  //border: 3px red solid;
-  //box-sizing: border-box;
 
   display: flex;
   flex-direction: column;
@@ -18,8 +16,8 @@
 
     object-fit: cover;
     z-index: -10;
-
-    opacity: 0.7;
+    opacity: 0.9;
+    filter: brightness(0.65);
   }
   h1,
   h2 {

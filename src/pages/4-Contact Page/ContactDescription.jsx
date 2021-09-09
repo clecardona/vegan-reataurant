@@ -3,10 +3,19 @@ import React from "react";
 export default function ContactDescription() {
   return (
     <section className="section-contact_description">
-      <img
-        src="https://clecardona.com/npa/vegan_restaurant/contact/header.jpg"
-        alt="img"
-      />
+      <div className="header-contact">
+        <img
+          className="background"
+          src="https://clecardona.com/npa/vegan_restaurant/contact/header.jpg"
+          alt="img"
+        />
+        <img
+          className="owner"
+          src="http://clecardona.com/img/portrait.jpg"
+          alt="img"
+        />
+      </div>
+
       <h2>Opening Hours</h2>
       <div className="hours">
         <p>Monday - Friday</p>

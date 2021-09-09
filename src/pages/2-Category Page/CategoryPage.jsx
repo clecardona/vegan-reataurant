@@ -25,7 +25,7 @@ export default function CategoryPage() {
       </section>
       <Products category={category} />
 
-      <NavLink to={`/`} className="btn btn-main btn-300">
+      <NavLink to={`/`} className="btn btn-ghost btn-300">
         <h3>⬅ Go back </h3>
       </NavLink>
     </main>

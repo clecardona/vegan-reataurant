@@ -7,3 +7,20 @@ header {
 
   background: $black;
 }
+
+.header-footer {
+  position: absolute;
+  z-index: 1;
+
+  top: $header-height;
+  left: 0;
+  height: 0;
+
+  border-top: $black solid 1px;
+  border-bottom: transparent solid 3vh;
+  @media only screen and (min-width: $desktopBreakpoint) {
+    border-bottom: transparent solid 5vh;
+  }
+  border-left: $black solid 100vw;
+  border-right: transparent;
+}

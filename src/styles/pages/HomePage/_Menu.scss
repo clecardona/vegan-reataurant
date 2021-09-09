@@ -26,22 +26,23 @@
   }
   h2,
   p {
-    padding: 0 12px;
+    padding: 0 10px;
   }
   h2 {
     grid-area: title;
     text-transform: capitalize;
-    padding-top: 12px;
+    padding-top: 10px;
   }
   p {
     grid-area: description;
-    text-align: justify;
+    /* text-align: justify;
     text-justify: inter-character;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis; */
     overflow: hidden;
     height: 100%;
 
     font-size: 14px;
+    letter-spacing: -0.5px;
   }
   a {
     grid-area: link;

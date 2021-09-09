@@ -7,7 +7,7 @@ export default function Ingredients({ product }) {
         {product.ingredients.map((ingredient) => {
           return (
             <li key={ingredient}>
-              <div className="btn btn-ghost pill">
+              <div className="btn btn-main pill">
                 <h3>{ingredient}</h3>
               </div>
             </li>

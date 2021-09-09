@@ -1,11 +1,31 @@
 .page-contact .section-contact_description {
   width: 100%;
 
-  img {
-    height: 200px;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
+  .header-contact {
+    position: relative;
+    .background {
+      height: 200px;
+      width: 100%;
+
+      object-fit: cover;
+      object-position: center;
+
+      filter: brightness(0.7);
+    }
+    .owner {
+      position: absolute;
+      bottom: 18px;
+      right: 18px;
+
+      z-index: 10;
+
+      border-radius: 100px;
+      border: 2px solid $white;
+
+      height: 7rem;
+      width: 7rem;
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.281);
+    }
   }
 
   .hours {
