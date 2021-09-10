@@ -1,10 +1,11 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, NavLink } from "react-router-dom";
 
 import foodData from "../../assets/foodItems.json";
-import ProductDescriptionSection from "./ProductDescriptionSection";
-import IngredientsSection from "./IngredientsSection";
-import NutritionFactsSection from "./NutritionFactsSection";
+import Description from "./Description";
+import Ingredients from "./Ingredients";
+import NutritionFacts from "./NutritionFacts";
+import ButtonBack from "../../components/ButtonBack";
 
 export default function ProductPage() {
   const { category } = useParams();
@@ -20,12 +21,12 @@ export default function ProductPage() {
 
   return (
     <main className="page-product">
-      <ProductDescriptionSection product={product} />
-      <IngredientsSection product={product} />
-      <NutritionFactsSection product={product} />
-      <a className="btn btn-main btn-300" href={`../${category}`}>
-        <h3> Go back </h3>
-      </a>
+      <Description product={product} />
+      <Ingredients product={product} />
+      <NutritionFacts product={product} />
+      <NavLink to={`/menu/${category}`} className="btn btn-main btn-300">
+        <ButtonBack label="Go back" />
+      </NavLink>
     </main>
   );
 }

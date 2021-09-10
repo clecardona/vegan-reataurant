@@ -1,7 +1,38 @@
 header {
   height: $header-height;
-  background: $grayDark;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background: $black;
+}
+
+.header-footer-diagonal {
+  position: absolute;
+  z-index: 1;
+
+  top: $header-height;
+  left: 0;
+  height: 0;
+
+  border-top: $black solid 1px;
+  border-bottom: transparent solid 3vh;
+  @media only screen and (min-width: $desktopBreakpoint) {
+    border-bottom: transparent solid 5vh;
+  }
+  border-left: $black solid 100vw;
+  border-right: transparent;
+}
+
+.header-footer-curvy {
+  position: absolute;
+  z-index: 1;
+
+  top: $header-height - 7px;
+  height: 7vw;
+  width: 100vw;
+  background: $black;
+
+  border-radius: 0 0 70% 70%;
 }

@@ -12,7 +12,7 @@ This project was bootstrapped with Create React App.
 ## 1. Content
 
 This is a Vegan Restaurant website.
-[Go to website](https://npa-portfolio.web.app/)
+[Go to website](https://npa-vegan-restaurant.web.app/)
 
 ## 2. Setup
 
@@ -41,7 +41,7 @@ These are the instructions to run the project:
 
 ### 4.3 Users flow chart
 
-[Figma mockup](https://whimsical.com/users-flow-Hfh9d7iWJeX9hP67m5pigR)
+[Whimsical Chart](https://whimsical.com/users-flow-Hfh9d7iWJeX9hP67m5pigR)
 
 ### 4.4 Design mockup
 
@@ -50,7 +50,3 @@ These are the instructions to run the project:
 ### 4.5 Component tree
 
 [Whimsical Component Tree](https://whimsical.com/component-tree-T2sZjtjagdgQUzMMhyvW3T)
-
-## 5. Credits
-
-Icons: Fontawesome
