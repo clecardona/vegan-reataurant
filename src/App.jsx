@@ -16,16 +16,11 @@ export default function App() {
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route exact path="/menu/:category" component={CategoryPage} />
-          <Route
-            exact
-            path="/menu/:category/:productID"
-            component={ProductPage}
-          />
-          <Route exact path="/contact" component={ContactPage} />
+          <Route path="/menu/:category/:productID" component={ProductPage} />
+          <Route path="/contact" component={ContactPage} />
         </Switch>
+        <Footer />
       </Router>
-
-      <Footer />
     </div>
   );
 }
