@@ -6,7 +6,14 @@ export default function Hero() {
       <h1>Wild and the Moon</h1>
       <h2>Because food matters</h2>
       <img
-        src="https://media-cdn.tripadvisor.com/media/photo-s/16/a2/8b/3c/a-lifelong-dedication.jpg"
+        className="illustration"
+        alt="bunny"
+        src="https://clecardona.com/npa/img/rabbit.svg"
+      />
+
+      <img
+        className="background"
+        src="https://static.actu.fr/uploads/2020/11/la-kitchenette-de-lisette-cuisine-vegan-bowls-cookies-tourcoing.jpg"
         alt=""
       />
     </section>
