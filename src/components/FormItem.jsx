@@ -1,17 +1,21 @@
 import React from "react";
 
-export default function FormItem({ type, setValue, label, value }) {
+export default function FormItem({ settings, hook }) {
+  const [state, setState] = hook;
+  const { label, type, placeholder, isValid } = settings;
+
   return (
     <label>
-      <p>{label}</p>
+      <div className="label-header">
+        <h4>{label}</h4>
+        {!isValid && <p className="verif">Please enter a valid {type}</p>}
+      </div>
+
       <input
         type={type}
-        onChange={(e) => setValue(e.target.value)}
-        /* onFocus={(e) => {
-          e.target.value = "";
-        }} */
-        placeholder={`Enter your ${label}...`}
-        value={value}
+        placeholder={placeholder}
+        value={state}
+        onChange={(event) => setState(event.target.value)}
       />
     </label>
   );

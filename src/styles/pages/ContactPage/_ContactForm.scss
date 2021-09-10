@@ -25,16 +25,27 @@ form {
   label {
     width: 100%;
 
+    .label-header {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 30px 0 0;
+    }
+    .verif {
+      color: $redDark;
+      font-weight: 300;
+    }
+
     input {
       box-sizing: border-box;
       padding: 0 30px;
-      margin: 3px 0;
+      margin-bottom: 15px;
       width: 100%;
     }
   }
   :nth-child(5) {
     justify-self: center;
   }
+
   .btn-main {
     margin: 24px 0;
     width: 140px;
