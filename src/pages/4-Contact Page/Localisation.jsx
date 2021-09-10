@@ -9,6 +9,14 @@ export default function Localisation() {
   return (
     <section className="section-localisation">
       <h2>Find us</h2>
+      <ul>
+        <li>
+          <p>Sankt Eriksgatan 66</p>
+        </li>
+        <li>
+          <p>Stockholm , Sweden</p>
+        </li>
+      </ul>
       <Map coordinates={coordinates} />
     </section>
   );
