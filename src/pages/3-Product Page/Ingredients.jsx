@@ -1,4 +1,5 @@
 import React from "react";
+import FoodIcon from "../../components/FoodIcon";
 
 export default function Ingredients({ product }) {
   return (
@@ -8,7 +9,8 @@ export default function Ingredients({ product }) {
           return (
             <li key={ingredient}>
               <div className="btn btn-ghost pill">
-                <h3>{ingredient}</h3>
+                <FoodIcon reference={ingredient[1]} />
+                <h3>{ingredient[0]}</h3>
               </div>
             </li>
           );

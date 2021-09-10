@@ -7,7 +7,13 @@
 
     "description": "Egg noodles with fresh pineaple and peas.Cooked in the wok. ",
     "category": "dishes",
-    "ingredients": ["pineapple", "tofu", "wasabi", "rice noodles", "miso"],
+    "ingredients": [
+      ["pineapple", "pineapple"],
+      ["Tofu", "tofu"],
+      ["Wasabi", "spices"],
+      ["Rice noodles", "noodles"],
+      ["Miso", "spices"]
+    ],
 
     "nutrition_facts": [
       {
@@ -68,11 +74,11 @@
     "description": "A finger-licious stew made with 🤍 with greek tradition ",
     "category": "dishes",
     "ingredients": [
-      "olives",
-      "zingy lemon",
-      "fresh tomatoes",
-      "new potatoes",
-      "peas"
+      ["Olives", "olives"],
+      ["Zingy Lemon", "lemon"],
+      ["Fresh Tomatoes", "tomato"],
+      ["Potatoes", "potato"],
+      ["Peas", "other"]
     ],
 
     "nutrition_facts": [
@@ -134,11 +140,11 @@
     "description": "An oriental inspired tagine, with apricots, preserved lemons, topping a fine couscous. ",
     "category": "dishes",
     "ingredients": [
-      "saffron",
-      "preserved lemon",
-      "couscous",
-      "apricots",
-      "toasted almonds"
+      ["Saffron", "spices"],
+      ["Preserved Lemon", "lemon"],
+      ["Couscous", "noodles"],
+      ["Apricots", "apricot"],
+      ["Toasted Almonds", "nuts"]
     ],
 
     "nutrition_facts": [
@@ -200,12 +206,12 @@
     "description": "Roasted roots in mediterrannean styles. Served with fresh herbs.",
     "category": "dishes",
     "ingredients": [
-      "carrots",
-      "paprika",
-      "apples",
-      "rosemary",
-      "thyme",
-      "sage"
+      ["Carrots", "carrot"],
+      ["Paprika", "zucchini"],
+      ["Apples", "apple"],
+      ["Rosemary", "spices"],
+      ["Thyme", "spices"],
+      ["Sage", "spices"]
     ],
 
     "nutrition_facts": [
@@ -267,12 +273,12 @@
     "description": "Sweet yet tart rhubarb sorbet with salty, crunchy brittle – flavours and textures that go mad in your mouth.",
     "category": "desserts",
     "ingredients": [
-      "rhubarb",
-      "pistachio",
-      "sugar",
-      "lime",
-      "vegetal oil",
-      "matcha"
+      ["Rhubarb", "other"],
+      ["Pistachio", "other"],
+      ["Sugar", "sugar"],
+      ["Lime", "lemon"],
+      ["Vegetal oil", "alcohol"],
+      ["Matcha", "other"]
     ],
 
     "nutrition_facts": [
@@ -334,12 +340,12 @@
     "description": "With tofu and dairy-free chocolate, these are a tasty vegan twist on regular chocolate mousse. ",
     "category": "desserts",
     "ingredients": [
-      "vanilla",
-      "hazelnuts",
-      "maple syrup",
-      "tofu",
-      "chilli",
-      "sea salt"
+      ["Vanilla", "vanilla"],
+      ["Hazelnuts", "nuts"],
+      ["Maple syrup", "syrup"],
+      ["Tofu", "tofu"],
+      ["Chilli", "spices"],
+      ["Sea salt", "salt"]
     ],
 
     "nutrition_facts": [
@@ -401,12 +407,12 @@
     "description": "Sticky-sweet and topped with lightly spiced apples, this makes the perfect afternoon tea treat!",
     "category": "desserts",
     "ingredients": [
-      "lemon",
-      "walnuts",
-      "maple syrup",
-      "lemon",
-      "apple",
-      "salt"
+      ["Lemon", "lemon"],
+      ["Walnuts", "nuts"],
+      ["Maple syrup", "syrup"],
+      ["Wheat", "wheat"],
+      ["Apple", "apple"],
+      ["salt", "salt"]
     ],
 
     "nutrition_facts": [
@@ -468,12 +474,12 @@
     "description": "Mojito Fruit Salad is a refreshing, non-alcoholic fruit and berry salad that tastes just like a sweet mojito.",
     "category": "desserts",
     "ingredients": [
-      "brown sugar",
-      "pineapple",
-      "watermelon",
-      "lemon",
-      "rhum",
-      "mint"
+      ["Brown sugar", "sugar"],
+      ["Pineapple", "pineapple"],
+      ["Watermelon", "watermelon"],
+      ["Lemon", "lemon"],
+      ["Rum", "alcohol"],
+      ["Mint", "mint"]
     ],
 
     "nutrition_facts": [
@@ -535,12 +541,12 @@
     "description": "This richly flavoured cocktail takes a while to come alive, so give it a good stir",
     "category": "drinks",
     "ingredients": [
-      "bacardi rum",
-      "orange bitters",
-      "sugar",
-      "apple juice",
-      "orange twist",
-      "lemon"
+      ["Bacardi rum", "alcohol"],
+      ["Orange bitters", "orange"],
+      ["Sugar", "sugar"],
+      ["Apple juice", "apple"],
+      ["Orange twist", "orange"],
+      ["Lemon", "lemon"]
     ],
 
     "nutrition_facts": [
@@ -602,12 +608,12 @@
     "description": "Named at a time when a lot of booze went into this drink, our version is lighter with two kinds of rum rounded off by the tropical fruit flavours. ",
     "category": "drinks",
     "ingredients": [
-      "bacardi rum",
-      "Triple Sec",
-      "orange juice",
-      "cherries",
-      "orange twist",
-      "lemon"
+      ["Bacardi rum", "alcohol"],
+      ["Triple Sec", "alcohol"],
+      ["Orange juice", "orange"],
+      ["Cherries", "cherry"],
+      ["Orange twist", "orange"],
+      ["Lemon", "lemon"]
     ],
 
     "nutrition_facts": [
@@ -669,12 +675,12 @@
     "description": "Mai Tai is Tahitian for “good”, but we think this tropical cocktail is better than that – it’s South Pacific sunshine in a glass! Get your grass skirts on.",
     "category": "drinks",
     "ingredients": [
-      "bacardi rum",
-      "Cointreau",
-      "orgeat syrup",
-      "fresh mint",
-      "orange juice",
-      "lemon"
+      ["Bacardi rum", "alcohol"],
+      ["Cointreau", "alcohol"],
+      ["Orgeat syrup", "syrup"],
+      ["Fresh mint", "mint"],
+      ["Orange juice", "orange"],
+      ["Lemon", "lemon"]
     ],
 
     "nutrition_facts": [
@@ -736,12 +742,12 @@
     "description": "The national drink of Cuba celebrating its independence. There’s more to it than just cola, rum and lime.",
     "category": "drinks",
     "ingredients": [
-      "bacardi oro rum",
-      "Cointreau",
-      "cola",
-      "ice cubes",
-      "limes",
-      "lemon"
+      ["Rum", "alcohol"],
+      ["Cointreau", "alcohol"],
+      ["Cola", "cocktail"],
+      ["Ice cubes", "other"],
+      ["Limes", "lemon"],
+      ["Lemon", "lemon"]
     ],
 
     "nutrition_facts": [

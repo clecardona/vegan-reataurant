@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Description({ product }) {
-  //console.log(product);
   return (
     <section className="section-product_description">
       <img alt="img" src={product.imageURL} />

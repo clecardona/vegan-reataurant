@@ -1,16 +1,15 @@
 import React from "react";
-import Map from "./Map";
+import Map from "./Localisation components/Map";
 
 export default function Localisation() {
-  const localisation = {
+  const coordinates = {
     lat: 59.33832013757092,
     lng: 18.035815098670508,
   };
-  //59.33832013757092, 18.035815098670508
   return (
     <section className="section-localisation">
       <h2>Find us</h2>
-      <Map localisation={localisation} />
+      <Map coordinates={coordinates} />
     </section>
   );
 }
