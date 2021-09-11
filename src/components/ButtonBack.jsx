@@ -1,5 +1,9 @@
 import React from "react";
 
+// I will not reduce points, but next time store the vector as a .svg image.
+// Anybody can open this component, mess with a single space between this long string and corrup the icon
+// I will reduce points next time
+
 export default function ButtonBack({ label }) {
   return (
     <>

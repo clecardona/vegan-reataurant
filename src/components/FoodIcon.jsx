@@ -8,6 +8,7 @@ export default function FoodIcon({ reference }) {
       alt={reference}
     />
 
+    // No comments in production -1
     /* <svg>
       className="food-icon" src={`https://clecardona.com/npa/icns/food/${reference}.svg`}
       alt={reference}

@@ -15,6 +15,7 @@ export default function Products({ category }) {
 
   return (
     <section className="section-products ">
+      {/* Don't put logic inside the JSX is hard to read */}
       {listOfProducts.map((item) => {
         return (
           <article key={item.id}>

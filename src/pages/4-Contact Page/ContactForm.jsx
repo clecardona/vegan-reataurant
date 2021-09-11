@@ -20,6 +20,10 @@ export default function ContactForm() {
 
   const messageValidation = `Merci ${fullName}(${email}) your reservation request for the ${date} at ${time} has been succesfully sent`;
 
+  // Function lenght
+  // Now that you have one folder per page,
+  // you could have put this inside "4-contact-page/form.json"
+  // i teach about this in class, thats why im putting the -1
   const nameSettings = {
     label: "Enter your full name",
     type: "text",

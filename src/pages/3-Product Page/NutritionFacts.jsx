@@ -1,11 +1,12 @@
 import React from "react";
 
 export default function NutritionFacts({ product }) {
-  const calories = product.nutrition_facts[0];
-  const otherData = product.nutrition_facts.slice(
-    1,
-    product.nutrition_facts.length
-  );
+  // To refactor, make a const called nutrition_facts to avoid the over nesting
+  const nutritionFacts = product.nutrition_facts;
+  const calories = nutritionFacts[0];
+  const otherData = nutritionFacts.slice(1, nutritionFacts.length);
+  // LOOK!!!
+  // now everything fits into a nice, short, easy to read, single line
 
   return (
     <section className="section-nutrition_facts">
@@ -21,6 +22,8 @@ export default function NutritionFacts({ product }) {
 
       <table>
         <tbody>
+          {/* Im this close to start adding -1 for putting logic inside JSX */}
+          {/* But i wont until i release the an article about best practices */}
           {otherData.map((item) => {
             return (
               <tr key={item.id}>

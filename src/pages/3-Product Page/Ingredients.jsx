@@ -5,6 +5,7 @@ export default function Ingredients({ product }) {
   return (
     <section className="section-ingredients">
       <ul>
+        {/* Guess the feddback comment... */}
         {product.ingredients.map((ingredient) => {
           return (
             <li key={ingredient}>
