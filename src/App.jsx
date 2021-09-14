@@ -1,12 +1,13 @@
 import "./styles/base.scss";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import HomePage from "./pages/1-Home Page/HomePage";
-import CategoryPage from "./pages/2-Category Page/CategoryPage";
-import ProductPage from "./pages/3-Product Page/ProductPage";
-import ContactPage from "./pages/4-Contact Page/ContactPage";
+
+import CategoryPage from "./components/Category/CategoryPage";
+import ContactPage from "./components/Contact/ContactPage";
+import HomePage from "./components/HomePage/HomePage";
+import ProductPage from "./components/Product/ProductPage";
+import Header from "./components/shared/Header";
+import Footer from "./components/shared/Footer";
 
 /**
  * Im writting this here, because i cannot put comments inside a folder.

@@ -21,13 +21,11 @@ button {
     text-transform: capitalize;
   }
 
-  svg {
+  .icon-btn {
     width: 20px;
-    margin: 0 6px;
-
-    path {
-      fill: $white;
-    }
+    height: 20px;
+    margin: 6px;
+    filter: invert(1);
   }
   &:hover {
     transition: ease 0.3s;
@@ -44,12 +42,11 @@ button {
     color: $red;
     text-transform: capitalize;
   }
-  svg {
+  .icon-btn {
     width: 20px;
+    height: 20px;
     margin: 6px;
-    path {
-      fill: $red;
-    }
+    filter: invert(0.5) sepia(1) saturate(5) hue-rotate(-45deg);
   }
   &:hover {
     transition: ease 0.3s;

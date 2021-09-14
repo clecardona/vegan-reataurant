@@ -1,5 +1,5 @@
 import React from "react";
-import FoodIcon from "../../components/FoodIcon";
+import FoodIcon from "../../components/shared/FoodIcon";
 
 export default function Ingredients({ product }) {
   return (

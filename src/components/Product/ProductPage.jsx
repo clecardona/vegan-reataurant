@@ -5,7 +5,7 @@ import foodData from "../../assets/foodItems.json";
 import Description from "./Description";
 import Ingredients from "./Ingredients";
 import NutritionFacts from "./NutritionFacts";
-import ButtonBack from "../../components/ButtonBack";
+import ButtonBack from "../../components/shared/ButtonBack";
 
 export default function ProductPage() {
   const { category } = useParams();

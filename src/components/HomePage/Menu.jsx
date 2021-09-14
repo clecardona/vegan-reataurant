@@ -1,7 +1,7 @@
 import React from "react";
 import menu from "../../assets/menuItems.json"; // renamed just menu, data is redudant. Is like saying carColor when speaking only of a car
 import { NavLink } from "react-router-dom";
-import ButtonForward from "../../components/ButtonForward";
+import ButtonForward from "../../components/shared/ButtonForward";
 
 // This could have being put inside HeroPage withouth any issues.
 export default function Menu() {

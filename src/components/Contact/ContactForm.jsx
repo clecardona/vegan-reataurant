@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import FormItem from "../../components/FormItem";
-import FormSubmit from "../../components/FormSubmit";
+import FormItem from "../../components/shared/FormItem";
+import FormSubmit from "../../components/shared/FormSubmit";
 
 export default function ContactForm() {
   const [fullName, setFullName] = useState("");

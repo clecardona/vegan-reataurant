@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import ButtonForward from "../../components/ButtonForward";
+import ButtonForward from "../../components/shared/ButtonForward";
 
 import foodData from "../../assets/foodItems.json";
 

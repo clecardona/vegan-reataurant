@@ -3,7 +3,7 @@ import { useParams, NavLink } from "react-router-dom";
 
 import menuData from "../../assets/menuItems.json";
 import Products from "./Products";
-import ButtonBack from "../../components/ButtonBack";
+import ButtonBack from "../shared/ButtonBack";
 
 export default function CategoryPage() {
   const { category } = useParams();
