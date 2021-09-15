@@ -1,9 +1,8 @@
 import React from "react";
-import menu from "../../assets/menuItems.json"; // renamed just menu, data is redudant. Is like saying carColor when speaking only of a car
+import menu from "../../assets/menuItems.json";
 import { NavLink } from "react-router-dom";
 import ButtonForward from "../../components/shared/ButtonForward";
 
-// This could have being put inside HeroPage withouth any issues.
 export default function Menu() {
   const MenuItems = menu.map((item) => {
     return (
@@ -18,10 +17,5 @@ export default function Menu() {
     );
   });
 
-  return (
-    <section className="section-menu ">
-      {/* Please put map logic as a separate component -1 */}
-      {MenuItems}
-    </section>
-  );
+  return <section className="section-menu ">{MenuItems}</section>;
 }

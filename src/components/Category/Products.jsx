@@ -13,24 +13,18 @@ export default function Products({ category }) {
     });
   }
 
-  return (
-    <section className="section-products ">
-      {/* Don't put logic inside the JSX is hard to read */}
-      {listOfProducts.map((item) => {
-        return (
-          <article key={item.id}>
-            <img src={item.imageURL} alt="img" />
-            <h2>{item.title}</h2>
-            <p>{item.description}</p>
-            <NavLink
-              to={`./${item.category}/${item.id}`}
-              className="btn btn-ghost"
-            >
-              <ButtonForward label="View Product" />
-            </NavLink>
-          </article>
-        );
-      })}
-    </section>
-  );
+  const ProductsItems = listOfProducts.map((item) => {
+    return (
+      <article key={item.id}>
+        <img src={item.imageURL} alt="img" />
+        <h2>{item.title}</h2>
+        <p>{item.description}</p>
+        <NavLink to={`./${item.category}/${item.id}`} className="btn btn-ghost">
+          <ButtonForward label="View Product" />
+        </NavLink>
+      </article>
+    );
+  });
+
+  return <section className="section-products ">{ProductsItems}</section>;
 }

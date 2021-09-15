@@ -1,12 +1,23 @@
 import React from "react";
 
 export default function NutritionFacts({ product }) {
-  // To refactor, make a const called nutrition_facts to avoid the over nesting
   const nutritionFacts = product.nutrition_facts;
   const calories = nutritionFacts[0];
   const otherData = nutritionFacts.slice(1, nutritionFacts.length);
-  // LOOK!!!
-  // now everything fits into a nice, short, easy to read, single line
+  const TablePercentage = () => {
+    otherData.map((item) => {
+      return (
+        <tr key={item.id}>
+          <td>
+            <h3>{item.label}</h3>
+          </td>
+          <td>
+            <h3>{item.value}%</h3>
+          </td>
+        </tr>
+      );
+    });
+  };
 
   return (
     <section className="section-nutrition_facts">
@@ -21,22 +32,7 @@ export default function NutritionFacts({ product }) {
       <h2 className="daily_value">% Daily Value*</h2>
 
       <table>
-        <tbody>
-          {/* Im this close to start adding -1 for putting logic inside JSX */}
-          {/* But i wont until i release the an article about best practices */}
-          {otherData.map((item) => {
-            return (
-              <tr key={item.id}>
-                <td>
-                  <h3>{item.label}</h3>
-                </td>
-                <td>
-                  <h3>{item.value}%</h3>
-                </td>
-              </tr>
-            );
-          })}
-        </tbody>
+        <tbody>{TablePercentage}</tbody>
       </table>
       <p>
         *The % Daily Value tells you how much a nutrient in a serving food
