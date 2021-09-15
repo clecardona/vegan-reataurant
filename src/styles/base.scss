@@ -30,9 +30,12 @@
 
 /* Contact Page */
 @import "./pages/Contact/ContactPage";
-@import "./pages/ContactContactDescription";
+@import "./pages/Contact/ContactDescription";
 @import "./pages/Contact/ContactForm";
 @import "./pages/Contact/Localisation";
+
+/* 404 */
+@import "./pages/404";
 
 /* animations imports*/
 @import "./animations";
