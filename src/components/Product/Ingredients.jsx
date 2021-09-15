@@ -2,7 +2,6 @@ import React from "react";
 import FoodIcon from "../../components/shared/FoodIcon";
 
 export default function Ingredients({ product }) {
-
   const ItemIngredients = () => {
     product.ingredients.map((ingredient) => {
       return (
@@ -13,14 +12,12 @@ export default function Ingredients({ product }) {
           </div>
         </li>
       );
-    })
-  })
+    });
+  };
 
   return (
     <section className="section-ingredients">
-      <ul>
-        {ItemIngredients}
-      </ul>
+      <ul>{ItemIngredients}</ul>
     </section>
   );
 }
