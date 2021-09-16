@@ -4,20 +4,18 @@ export default function NutritionFacts({ product }) {
   const nutritionFacts = product.nutrition_facts;
   const calories = nutritionFacts[0];
   const otherData = nutritionFacts.slice(1, nutritionFacts.length);
-  const TablePercentage = () => {
-    otherData.map((item) => {
-      return (
-        <tr key={item.id}>
-          <td>
-            <h3>{item.label}</h3>
-          </td>
-          <td>
-            <h3>{item.value}%</h3>
-          </td>
-        </tr>
-      );
-    });
-  };
+  const TablePercentage = otherData.map((item) => {
+    return (
+      <tr key={item.id}>
+        <td>
+          <h3>{item.label}</h3>
+        </td>
+        <td>
+          <h3>{item.value}%</h3>
+        </td>
+      </tr>
+    );
+  });
 
   return (
     <section className="section-nutrition_facts">
