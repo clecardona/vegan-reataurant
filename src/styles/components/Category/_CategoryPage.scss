@@ -38,15 +38,21 @@
 
 .section-description {
   width: 100%;
+  background: $grayLight;
+
   @media only screen and (min-width: $desktopBreakpoint) {
     width: 800px;
     margin: auto;
+    margin-top: 20px;
   }
   p {
     padding: 12px;
-    font-weight: 300;
+
+    max-width: 350px;
+    text-align: justify;
+    hyphens: auto;
     @media only screen and (min-width: $desktopBreakpoint) {
-      padding: 25px 0;
+      padding: 25px 12px;
     }
   }
 }

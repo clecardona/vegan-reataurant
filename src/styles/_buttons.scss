@@ -84,12 +84,9 @@ input {
   border: 1px $black solid;
   height: 30px;
   border-radius: 30px;
-  background-color: transparent;
-}
-input[type="text"],
-input[type="email"] {
   background-color: $grayLight;
 }
+
 input[type="submit"] {
   color: $white;
 }

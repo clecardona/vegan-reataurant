@@ -11,6 +11,10 @@
     grid-template-columns: 44% 1fr;
     grid-template-rows: min-content 1fr min-content;
 
+    @media only screen and (min-width: 500px) {
+      grid-template-rows: min-content 1fr 1fr;
+    }
+
     grid-template-areas:
       "img title "
       "img description"
@@ -41,6 +45,10 @@
     }
     h2 {
       grid-area: title;
+      justify-self: center;
+      text-align: left;
+      width: 100%;
+      max-width: 350px;
       text-transform: capitalize;
       @media only screen and (min-width: $desktopBreakpoint) {
         padding-top: 30px;
@@ -48,11 +56,14 @@
     }
     p {
       grid-area: description;
+      justify-self: center;
       text-align: justify;
       text-justify: inter-character;
+      hyphens: auto;
       text-overflow: ellipsis;
       overflow: hidden;
       height: 100%;
+      max-width: 350px;
       @media only screen and (min-width: $desktopBreakpoint) {
         padding-top: 20px;
       }
@@ -60,9 +71,9 @@
     a {
       grid-area: link;
       justify-self: center;
+
       @media only screen and (min-width: $desktopBreakpoint) {
-        justify-self: end;
-        margin: 0 12px 12px 0;
+        margin: 12px 0;
       }
 
       width: max-content;
