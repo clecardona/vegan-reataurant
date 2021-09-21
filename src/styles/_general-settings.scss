@@ -2,7 +2,9 @@ html {
   scroll-behavior: smooth;
   overflow-x: hidden;
 }
-
+* {
+  box-sizing: border-box;
+}
 .App {
   display: flex;
   flex-direction: column;
