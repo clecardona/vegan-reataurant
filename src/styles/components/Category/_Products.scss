@@ -1,37 +1,29 @@
 .section-products {
+  display: grid;
+  gap: 1em;
   @media only screen and (min-width: $desktopBreakpoint) {
     width: 800px;
     margin: auto;
   }
   article {
-    @media only screen and (min-width: $desktopBreakpoint) {
-      border: 1px solid $grayLight;
-    }
+    overflow: hidden;
+    border-radius: 1em;
+    background: $grayLight;
+    box-shadow: 2px 2px 12px grey;
     display: grid;
     grid-template-columns: 44% 1fr;
     grid-template-rows: min-content 1fr min-content;
-
-    @media only screen and (min-width: 500px) {
-      grid-template-rows: min-content 1fr 1fr;
-    }
 
     grid-template-areas:
       "img title "
       "img description"
       "img link";
 
-    border-bottom: 1px solid $grayLight;
-    margin-top: 1rem;
     padding-bottom: 1rem;
     @media only screen and (min-width: $desktopBreakpoint) {
       padding-bottom: 0;
     }
-    &:last-child {
-      border-bottom: none;
-      @media only screen and (min-width: $desktopBreakpoint) {
-        border-bottom: 1px solid $grayLight;
-      }
-    }
+
     img {
       grid-area: img;
       width: 100%;
@@ -71,12 +63,7 @@
     a {
       grid-area: link;
       justify-self: center;
-
-      @media only screen and (min-width: $desktopBreakpoint) {
-        margin: 12px 0;
-      }
-
-      width: max-content;
+      width: 100%;
       h3 {
         font-size: 15px;
       }

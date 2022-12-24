@@ -2,6 +2,7 @@ nav {
   z-index: 10;
   display: grid;
   gap: 1rem;
+  color: white;
 
   padding-top: 20px;
   @media only screen and (min-width: $desktopBreakpoint) {
@@ -24,12 +25,17 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    h3 {
+      color: $grayLight;
+      text-transform: capitalize;
+      font-weight: 700;
+      text-shadow: 2px 2px 0 $green;
+      transition: 0.3s;
 
-    color: $grayLight;
-    text-transform: capitalize;
-    font-size: 14px;
-    &:hover {
-      text-decoration: underline;
+      &:hover {
+        transition: 0.3s;
+        text-shadow: 3px 3px 0 gray;
+      }
     }
   }
 }

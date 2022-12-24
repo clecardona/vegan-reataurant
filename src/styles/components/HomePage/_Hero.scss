@@ -9,14 +9,18 @@
 
   overflow: hidden;
 
-  h1,
-  h2 {
+  h1 {
     color: white;
     line-height: 80%;
+    font-weight: 800;
+    text-shadow: 2px 2px 0 gray;
   }
 
   h2 {
-    font-weight: 200;
+    color: white;
+    line-height: 80%;
+    font-weight: 400;
+    text-shadow: 2px 2px 0 gray;
   }
 
   .illustration {

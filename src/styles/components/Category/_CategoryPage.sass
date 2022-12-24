@@ -1,0 +1,53 @@
+.page-category
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  align-items: center
+
+  .btn-300
+    width: 300px
+    margin: 24px
+    @media only screen and (min-width: $desktopBreakpoint)
+      margin: 64px
+
+.section-header
+  position: relative
+  width: 100%
+  background: $white
+  height: 150px
+  @media only screen and (min-width: $desktopBreakpoint)
+    height: 280px
+
+    display: flex
+    justify-content: center
+    align-items: center
+
+    color: $white
+    text-transform: capitalize
+
+  h1
+    font-weight: 700
+    padding-top: 50px
+    z-index: 1
+    text-shadow: 3px 3px 0 gray
+
+  .bg
+    position: absolute
+    height: 100%
+    width: 100%
+    object-fit: cover
+    object-position: center bottom
+    filter: brightness(.6)
+    opacity: .6
+
+.section-description
+  width: 100%
+
+  @media only screen and (min-width: $desktopBreakpoint)
+    width: 800px
+    margin: auto
+
+  p
+    padding: 25px 0
+    text-align: justify
+    hyphens: auto
